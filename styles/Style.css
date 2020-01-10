@@ -1,0 +1,52 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    justify-items: center;
+    grid-auto-rows: minmax(auto, auto);
+    height:100%;
+    font-family: 'Amiri', serif;
+    color: #555555
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper div:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2/3;
+    text-align: center;
+    line-height: 2.1em;
+}
+
+.wrapper div:nth-child(5) hr {
+    margin-top:10%;
+    width:10%;
+    border-color: #bab8bb;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+#intro{
+    font-size:2.0em;
+}
+
+#about{
+    font-size:1.2em;
+}
+
+#communication{
+    font-size:0.9em;
+    color: #9c9b9d
+}
+
+#about a{
+    color : #23c8a6;
+}
+
+.wrapper div{
+    height:33%;
+}
