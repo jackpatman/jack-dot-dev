@@ -1,4 +1,7 @@
 
+body {
+    background-color: rgba(16, 14, 23, 0.99);
+}
 
 .headerContainer{
     margin-top: 2%;
@@ -63,45 +66,58 @@ a{
     color: #ababab;
 }
 
+#nav img{
+    padding-top: 2%;
+    padding-right: 1%;
+    height: 22px;
+}
+
+
+#innerContainer{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
 
 #outerContainer{
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 #about-intro{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 1.3em;
+    color: rgba(221,221,220,0.99);
+    font-weight: 300;
+    margin-top: 10%;
 }
 
 #about-expanded{
-    margin-top: 3%;
+    margin-top: 2%;
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.1em;
-    color: #2c2c2c;
+    color: #ffffff;
 }
 
-#study{
-    text-decoration: none;
-    color: #66c4b0;
-    background-color: #f2f2f2;
-}
-#company{
-    text-decoration: none;
-    color: #dd7b1f;
-    background-color: #f2f2f2;
+#name{
+    font-size: 2.5em;
+    font-weight: 400;
+    color: white;
+
 }
 
-#study a:visited{
-    text-decoration: none;
-    color: #dd7b1f;
+#redstop{
+    color: rgb(255, 124, 129);
 }
-#company a:visited{
+
+a {
     text-decoration: none;
-    color: #dd7b1f;
+    color: rgb(255, 124, 129);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 74, 84);
 }
 
 
@@ -125,8 +141,4 @@ a{
 #contacts a{
     text-decoration: none;
     color: #2c2c2c;
-}
-
-body{
-    background-color: #fafafa;
 }
