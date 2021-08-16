@@ -67,9 +67,11 @@ a{
 }
 
 #nav img{
-    padding-top: 2%;
-    padding-right: 1%;
-    height: 22px;
+    padding-top: 4%;
+    padding-right: 2%;
+    width: 1.5em;
+    vertical-align:bottom;
+    border:0;
 }
 
 
