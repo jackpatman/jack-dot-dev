@@ -80,6 +80,12 @@ a{
 
 #outerContainer{
     margin-left: 12%;
+    width:100%;
+}
+
+.contentBox {
+    float: left;
+    width: 50%;
 }
 
 #about-intro{
@@ -113,6 +119,11 @@ a{
 a {
     text-decoration: none;
     color: rgb(255, 124, 129);
+}
+
+#plant{
+    margin-top: -2%;
+    height: 80%;
 }
 
 a:hover{
