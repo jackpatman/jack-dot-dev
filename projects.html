@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>
+        Jacks Page
+    </title>
 </head>
 <body>
-
+<div id="navbar">
+    <span id="logo_box">
+        <a href="."><img id="logo" src="./images/QuickLogo.png" width="60em" /></a>
+    </span>
+    <span id="navLinks">
+        <a href="./about">About</a>
+        <a href="https://notes.jack.dev">Blog</a>
+        <a href="./projects">Projects</a>
+    </span>
+</div>
+<div id="outerContainer">
+    <div class="contentBox" id="ImageContainer" >
+        <figure>
+          <img id="placeholderimage" src="./images/fresh.png" width="700em"/>
+        </figure>
+    </div>
+    <div class="contentBox" id="innerContainer">
+        <div id="about-intro">
+                <span id="name">JACK PATMAN<br></span>
+        </div>
+        <div id="about-expanded">
+            A backend & Machine Learning software<br> engineer,
+            currently based in <a href="https://www.google.com/maps/search/?api=1&query=Surrey%2C%20England&query_place_id=ChIJgSUS1VpV30cRd0IDXESDUtU">Surrey, England</a>,<br>
+            with a penchant for programming & baking.<br>
+        </div>
+        <button class="buttonmain" id = role="button">Learn more about what I do...</button>
+    </div>
+</div>
+<div id="bottomnav">
+    <a href="mailto:webenquiries@jack.dev" class="circlebutton"><img src="./images/email.png"/></a>
+    <a href="https://github.com/jackpatman" class="circlebutton"><img src="./images/github.png"/></a>
+    <a href="https://www.linkedin.com/in/jack-patman-8b6b0b7a/" class="circlebutton"><img src="./images/linkedin.png"/></a>
+    <a href="https://www.instagram.com/jack.patman/" class="circlebutton"><img src="./images/instagram.png"/></a>
+</div>
 </body>
+
+
 </html>
