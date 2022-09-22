@@ -1,17 +1,17 @@
 
 body {
-    background-color: rgba(16, 14, 23, 0.99);
+    background-color: white;
 }
 
 .headerContainer{
     margin-top: 2%;
     margin-left: 15%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 .primaryLinkHighlighted{
     font-weight: 300;
-    color: #9e9e9e;
+    color: #080808;
     padding-left: 1%;
     text-decoration: none;
 }
@@ -21,23 +21,22 @@ body {
 
 .primaryLink{
     font-weight: 300;
-    color: #9e9e9e;
     padding-left: 1%;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .primaryLink a{
     text-decoration: none;
 }
 .primaryLink:hover{
-    color: #007fd7;
+    color: #080808;
     text-decoration: underline;
 }
 .primaryLink a:visited:hover{
-    color: #007fd7;
+    color: #080808;
     text-decoration: underline;
 }
 .primaryLink a:visited{
-    color: #9e9e9e;
+    color: #080808;
     text-decoration: none;
 }
 a{
@@ -76,7 +75,7 @@ a{
 
 
 #innerContainer{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
     color:white;
 }
 
@@ -86,14 +85,13 @@ a{
 
 .contentBox {
     float: left;
-    margin-top:1%;
     width: 50%;
 }
 
 #about-intro{
     margin-bottom: 5%;
     font-size: 1.3em;
-    color: rgba(221,221,220,0.99);
+    color: rgba(47, 47, 47, 0.99);
     font-weight: 300;
     margin-top: 10%;
 }
@@ -101,34 +99,41 @@ a{
 #about-expanded{
     margin-top: 2%;
     line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
-    color: #ffffff;
+    color: rgba(47, 47, 47, 0.99);
 }
 
 #name{
     font-size: 2.5em;
     font-weight: 400;
-    color: white;
+    color: black;
 
 }
 
 #redstop{
-    color: rgb(255, 124, 129);
+    color: black;
 }
 
-a {
+#about-expanded a {
+    color: black;
+    text-decoration: underline;
+}
+
+li a{
     text-decoration: none;
-    color: rgb(255, 124, 129);
 }
 
-#plant{
-    margin-top: -2%;
-    height: 35em;
+li a:hover{
+    color: rgb(255, 74, 84);
 }
 
-a:hover{
+figcaption a{
+    text-decoration: none;
+}
+
+#about-expanded a:hover{
     text-decoration: none;
     color: rgb(255, 74, 84);
 }
@@ -142,7 +147,7 @@ a:hover{
 
 #contacts{
     margin-bottom:20%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-size: 0.9em;
 }
 
@@ -170,8 +175,14 @@ a:hover{
 
 #navbar ul > li {
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
     margin-right: 2%;
     font-weight: 400;
     font-size: 1.1em;
+}
+
+figcaption {
+    font-style: italic;
+    color:#6D6D6D;
+    margin-left: 40%;
 }
