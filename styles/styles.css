@@ -1,7 +1,10 @@
 
 body {
-    background-color: white;
+    background-color: #f9e6da;
+    margin:0;
+    padding:0;
 }
+
 
 .headerContainer{
     margin-top: 2%;
@@ -60,28 +63,63 @@ a{
     color: #2c2c2c;
 }
 
-#navLinks{
-    padding-left: 50%;
-    color: #ababab;
+#navbar
+{
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    width: 100%;
+    height: 6em;
+    display:table;
+    padding-left: 1.5em;
 }
 
-#nav img{
+
+#navLinks a{
+    text-decoration: none;
+    text-align: right;
+    list-style: none;
+    display: inline;
+    margin-right: 1em;
+    font-size: 1.1em;
+}
+
+#navLinks{
+    padding-left: 50%;
+    color: black;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#logo_box{
+    margin-top: 1em;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#bottomnav
+{
+    position:absolute;
+    bottom:0;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+#bottomnav img{
     padding-top: 4%;
-    padding-right: 2%;
-    width: 1.5em;
-    vertical-align:bottom;
+    padding-right: 0.35em;
+    margin-left: 0.35em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    width: 1.3em;
+    height: 1.3em;
     border:0;
 }
 
 
 #innerContainer{
-    font-family: 'Lora', sans-serif;
-    color:white;
+    margin-top:10em;
 }
 
-#outerContainer{
-    margin-left: 12%;
-}
 
 .contentBox {
     float: left;
@@ -89,7 +127,7 @@ a{
 }
 
 #about-intro{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     font-size: 1.3em;
     color: rgba(47, 47, 47, 0.99);
     font-weight: 300;
@@ -97,41 +135,29 @@ a{
 }
 
 #about-expanded{
-    margin-top: 2%;
     line-height: 1.6;
-    font-family: 'Lora', sans-serif;
-    font-weight: 400;
-    font-size: 1.1em;
-    color: rgba(47, 47, 47, 0.99);
+    font-family: 'Prata', serif;
+    font-size: 1.7em;
+    color: #262626;
 }
 
 #name{
-    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
     font-weight: 400;
     color: black;
 
 }
 
-#redstop{
-    color: black;
-}
-
 #about-expanded a {
-    color: black;
     text-decoration: underline;
 }
 
-li a{
-    text-decoration: none;
-}
 
-li a:hover{
+#navLinks a:hover{
     color: rgb(255, 74, 84);
 }
 
-figcaption a{
-    text-decoration: none;
-}
 
 #about-expanded a:hover{
     text-decoration: none;
@@ -162,27 +188,64 @@ figcaption a{
 }
 
 
-#navbar
-{
-    border-bottom: 1px solid white;
-    margin-right: 60%;
+
+/* CSS */
+.buttonmain {
+    margin-top: 5em;
+    background-color: #f9e6da;
+    align-items: center;
+    appearance: none;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    border: 1px solid black;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    transition: background-color 1s;
+    z-index: 0;
 }
 
-#navbar ul{
-    list-style: none;
-    padding-left: 0;
+.buttonmain:hover {
+    background: white;
+    transition: background-color 1s;
 }
 
-#navbar ul > li {
+.buttonmain:active {
+    outline: none;
+}
+
+.buttonmain:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+.circlebutton {
+    border-radius: 50%;
     display: inline-block;
-    font-family: 'Lora', sans-serif;
-    margin-right: 2%;
-    font-weight: 400;
-    font-size: 1.1em;
+    overflow: hidden;
+    transition: background 1s;
 }
-
-figcaption {
-    font-style: italic;
-    color:#6D6D6D;
-    margin-left: 40%;
+.circlebutton:hover {
+    transition: background 1s;
+    background: #F9A093;
 }

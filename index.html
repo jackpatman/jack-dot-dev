@@ -3,50 +3,50 @@
 <meta charset="UTF-8">
 <head>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>
         Jacks Page
     </title>
 </head>
 <body>
+<div id="navbar">
+    <span id="logo_box">
+        <img id="logo" src="./images/QuickLogo.png" width="60em" />
+    </span>
+    <span id="navLinks">
+         <a href="https://notes.jack.dev">BLOG</a><a href="./projects">PROJECTS</a>
+    </span>
+</div>
 <div id="outerContainer">
-    <div id="navbar">
-        <ul>
-            <li><a href="https://notes.jack.dev">Notes</a></li>
-            <li><a href="./projects">Projects</a></li>
-        </ul>
+    <div class="contentBox" id="ImageContainer" >
+        <figure>
+          <img id="placeholderimage" src="./images/fresh.png" width="700em"/>
+
+        </figure>
     </div>
     <div class="contentBox" id="innerContainer">
         <div id="about-intro">
-                <span id="name">Jack Patman<span id="redstop">.</span><br></span>
+                <span id="name">JACK PATMAN<br></span>
         </div>
         <div id="about-expanded">
-            I'm a Software Engineer currently based in <a href="https://www.google.com/maps/search/?api=1&query=Surrey%2C%20England&query_place_id=ChIJgSUS1VpV30cRd0IDXESDUtU">Surrey, England</a>,<br>
+            A backend & Machine Learning software<br> engineer,
+            currently based in <a href="https://www.google.com/maps/search/?api=1&query=Surrey%2C%20England&query_place_id=ChIJgSUS1VpV30cRd0IDXESDUtU">Surrey, England</a>,<br>
             with a penchant for programming & baking.<br>
-            <br>
-            I'm currently tinkering behind the scenes as a back-office developer<br>
-            at <a href="https://adgcorporate.com/">ADG Corporate</a> &
-            finishing my <a href="https://www.royalholloway.ac.uk/studying-here/postgraduate/computer-science/machine-learning/">Machine Learning Msc</a> (Aug 2022).<br>
         </div>
-        <div id="nav">
-            <a href="https://github.com/jackpatman"><img src="./images/github.png"/></a>
-            <a href="https://www.linkedin.com/in/jack-patman-8b6b0b7a/"><img src="./images/linkedin.png"/></a>
-            <a href="mailto:webenquiries@jack.dev"><img src="./images/mail.png"/></a>
-        </div>
+        <button class="buttonmain" id = role="button">Learn more about what I do...</button>
     </div>
-    <div class="contentBox" id="ImageContainer" >
-        <figure>
-            <img id="tree" src="" width="550px"/>
-        </figure>
-    </div>
+</div>
+<div id="bottomnav">
+    <a href="mailto:webenquiries@jack.dev" class="circlebutton"><img src="./images/email.png"/></a>
+    <a href="https://github.com/jackpatman" class="circlebutton"><img src="./images/github.png"/></a>
+    <a href="https://www.linkedin.com/in/jack-patman-8b6b0b7a/" class="circlebutton"><img src="./images/linkedin.png"/></a>
+    <a href="https://www.instagram.com/jack.patman/" class="circlebutton"><img src="./images/instagram.png"/></a>
 </div>
 </body>
 
 
-<!--
-                         ''~``
-                        ( o o )
-+------------------.oooO--(_)--Oooo.------------------+
-                    Wot no frontend?
- -->
 </html>
