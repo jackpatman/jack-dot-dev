@@ -83,7 +83,7 @@ a{
 }
 
 #navLinks{
-    padding-left: 80em;
+    padding-left: 50%;
     color: black;
     display:table-cell;
     vertical-align:middle;
@@ -119,15 +119,23 @@ a{
 }
 
 
-#innerContainer{
-    margin-top:10em;
+#placeholderimage{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-
-.contentBox {
+#ImageContainer{
     float: left;
     width: 50%;
 }
+
+#innerContainer{
+    margin-top:10em;
+    float: left;
+    width: 50%;
+}
+
 
 #about-intro{
     margin-bottom: 2%;
