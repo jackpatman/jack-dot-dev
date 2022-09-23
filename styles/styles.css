@@ -102,6 +102,12 @@ a{
     margin-left:1.5em;
 }
 
+#footer
+{
+    position:relative;
+    margin-top: 14em;
+}
+
 #bottomnav
 {
     width: 90%;
@@ -133,6 +139,8 @@ a{
 
 #outerContainer{
     margin: 0 auto;
+    position:relative;
+    overflow:hidden;
 }
 
 
@@ -143,7 +151,7 @@ a{
 #innerContainer{
     float: left;
     margin-left: 5%;
-    width: 50%x;
+    width: 50%;
     min-width: 200px;
     max-width: 500px;
 }
