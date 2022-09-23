@@ -86,6 +86,7 @@ a{
 #navLinks{
     float:right;
     color: black;
+    line-height: 600%;
     display:table-cell;
     vertical-align:middle;
 }
