@@ -67,9 +67,10 @@ a{
 {
     font-family: 'Poppins', sans-serif;
     background-color:white;
-    width: 100%;
     height: 6em;
+    width: 100%;
     display:table;
+    margin-bottom: 5%;
 }
 
 
@@ -83,13 +84,14 @@ a{
 }
 
 #navLinks{
-    padding-left: 50%;
+    float:right;
     color: black;
     display:table-cell;
     vertical-align:middle;
 }
 
 #logo_box{
+    float:left;
     margin-top: 1em;
     display:table-cell;
     vertical-align:middle;
@@ -101,6 +103,7 @@ a{
 
 #bottomnav
 {
+    width: 90%;
     position:absolute;
     bottom:0;
     padding-bottom: 2em;
@@ -121,19 +124,27 @@ a{
 
 #placeholderimage{
     width: 60%;
-    margin-left: 10%;
-    margin-right: 10%;
+    min-width: 290px;
+    max-width: 650px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+#outerContainer{
+    margin: 0 auto;
+}
+
 
 #ImageContainer{
     float: left;
-    width: 50%;
 }
 
 #innerContainer{
-    margin-top:10em;
     float: left;
-    width: 50%;
+    margin-left: 5%;
+    width: 50%x;
+    min-width: 200px;
+    max-width: 500px;
 }
 
 
@@ -146,6 +157,8 @@ a{
 }
 
 #about-expanded{
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1.6;
     font-family: 'Prata', serif;
     font-size: 1.7em;
@@ -175,12 +188,6 @@ a{
     color: rgb(255, 74, 84);
 }
 
-
-#footer{
-    position: absolute;
-    bottom: 0;
-    width: 20%;
-}
 
 #contacts{
     margin-bottom:20%;
